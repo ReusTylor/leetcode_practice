@@ -18,6 +18,9 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2RrN3LfsxTUlI7K7vhlHtnn5GmT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,6 +34,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/home/guessever/linuxdata/code_factory/c++/database_project/duck_db",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688004039534</updated>
       <workItem from="1688004040716" duration="2243000" />
+      <workItem from="1688568639462" duration="24000" />
     </task>
     <servers />
   </component>
