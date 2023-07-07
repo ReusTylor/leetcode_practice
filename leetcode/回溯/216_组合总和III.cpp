@@ -25,7 +25,7 @@ class Solution {
             }
         }
 
-        // i 指的就是1 2 3 这些数，而不是下标
+        // 
         // i是从startIndex开始的
         // 注意i的剪枝操作
         for(int i = startIndex; i <= targetSum -(k-path.size()) + 1; i++){

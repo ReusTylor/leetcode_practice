@@ -6,7 +6,7 @@
     输入：digits = "23"
     输出：["ad","ae","af","bd","be","bf","cd","ce","cf"]
 */
-// 相当于多个集合求组合，39 216都是一个集合求组合
+// 相当于多个集合求组合，39 216都是一个集合求组合 所以需要startindex来提示现在遍历到了哪个数字
 #include<iostream>
 #include<string>
 #include<vector>

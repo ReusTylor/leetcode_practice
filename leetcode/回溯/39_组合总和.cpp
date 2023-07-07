@@ -7,6 +7,8 @@
     对于给定的输入，保证和为 target 的不同组合数少于 150 个。
 
 */
+
+// 一个集合求组合的话，就需要startIndex来控制for循环的起始位置，如果是多个集合取组合，各个组合之间互不影响，就不用startIndex了
 #include <iostream>
 #include<vector>
 
@@ -28,7 +30,7 @@ class Solution {
         for(int i = startIndex; i < candidates.size(); i++){
             sum += candidates[i];
             path.emplace_back(candidates[i]);
-
+            // 因为这里的数是可以重复使用的，所以传入i
             backtracking(candidates, target, sum, i);
 
             sum -= candidates[i];
