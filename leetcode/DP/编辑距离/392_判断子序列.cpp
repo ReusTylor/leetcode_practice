@@ -72,4 +72,3 @@ int main(){
 
 
 
-/dev/nvme0n1p10   /home/guessever/p10   ext4   defaults   0   0

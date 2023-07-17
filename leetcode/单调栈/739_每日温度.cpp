@@ -18,6 +18,7 @@ public:
     vector<int> dailyTemperatures(vector<int>& temperatures) {
         //递增栈
         stack<int> st;
+        // 对于最后两个元素,76, 73最后仍然是在单调栈中, 在初始化时就将其初始化为0,所以最后不用做特殊处理
         vector<int> result(temperatures.size(), 0);
         st.push(0);
         for(int i = 1; i < temperatures.size(); i++){
@@ -26,7 +27,7 @@ public:
                 st.push(i);
             }else if(temperatures[i] == temperatures[st.top()]){
                 st.push(i);
-            }else{
+            }else{// 当temperatures[i] > temperatures[st.top()]的情况,此时栈中的元素是递增的,
                 while (!st.empty() && temperatures[i] > temperatures[st.top()])
                 {
                     /* code */
