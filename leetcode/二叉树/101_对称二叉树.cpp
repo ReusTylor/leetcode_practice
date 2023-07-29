@@ -55,3 +55,38 @@ public:
         return compare(root->left, root->right);
     }
 };
+
+
+// 迭代法
+class Solution2 {
+public:
+    bool isSymmetric(TreeNode* root) {
+        if(root == nullptr) return true;
+        queue<TreeNode*> que;
+        que.push(root->left);
+        que.push(root->right);
+
+        while(!que.empty()){
+            TreeNode* leftNode = que.front(); que.pop();
+            TreeNode* rightNode = que.front(); que.pop();
+            // 左右都为空的情况
+            if(!leftNode && !rightNode){
+                continue;
+            }
+
+            if(!leftNode || !rightNode || leftNode->val != rightNode->val){
+                return false;
+            }
+            que.push(leftNode->left);
+            que.push(rightNode->right);
+            que.push(leftNode->right);
+            que.push(rightNode->left);
+
+        }
+        return true;
+    }
+};
+
+
+
+

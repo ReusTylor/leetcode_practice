@@ -9,7 +9,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c703cd40-29b8-4a7e-84d1-2c231c386eb5" name="更改" comment="" />
+    <list default="true" id="c703cd40-29b8-4a7e-84d1-2c231c386eb5" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/二叉树/101_对称二叉树_未完成.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/二叉树/104_二叉树的最大深度_未完成.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/二叉树/111_二叉树的最小深度_未完成.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/二叉树/222_完全二叉树的节点个数_未完成.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/二叉树/222_完全二叉树的节点个数_未完成.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/链表/206_反转链表_未完成.cpp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RrN3LfsxTUlI7K7vhlHtnn5GmT" />
   <component name="ProjectViewState">
@@ -40,6 +51,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CPPToolchains",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -61,6 +73,8 @@
       <updated>1688004039534</updated>
       <workItem from="1688004040716" duration="2243000" />
       <workItem from="1688568639462" duration="24000" />
+      <workItem from="1690429358936" duration="1908000" />
+      <workItem from="1690609660019" duration="593000" />
     </task>
     <servers />
   </component>
