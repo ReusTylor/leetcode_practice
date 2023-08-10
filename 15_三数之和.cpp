@@ -10,9 +10,10 @@
 */
 // 求三数之和 = 0；可以确定一个数，然后在剩下的数中找两个数，使得这两个数的和等于第一个数的相反数。
 // 自己的代码缺失了去重的逻辑
-#include<iostream>
+#include <iostream>
 #include<vector>
 #include<algorithm>
+#include <climits>
 using namespace std;
 
 class Solution {
@@ -54,10 +55,12 @@ public:
         }
         return result;
     }
-};
+}
+
+
 
 int main(){
-    vector<int> nums = {0,0,0,0};
+    vector<int> nums = {-1, -1, 0, 1};
     Solution s;
     vector<vector<int>> result = s.threeSum(nums);
     for(auto i : result){

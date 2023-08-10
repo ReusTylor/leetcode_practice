@@ -34,6 +34,27 @@ public:
     }
 };
 
+// 递归的逻辑和双指针的逻辑是类似的
+/*
+ * 递归三部曲
+ *  1. 递归函数和参数
+ *  2. 返回条件
+ *  3. 单层的递归逻辑
+ */
+class Solution2{
+ public:
+  ListNode* reverse1(ListNode* pre, ListNode* cur){
+    if(cur == nullptr) return pre;
+    ListNode* tmp = cur->next;
+    cur->next = pre;
+    return reverse1(cur, tmp);
+
+  }
+  ListNode* ReverseList(ListNode* head){
+    return reverse1(nullptr, head);
+  }
+};
+
 int main(){
     ListNode* l1 = new ListNode(1);
     ListNode* l2 = new ListNode(2);
@@ -41,7 +62,7 @@ int main(){
     l1->next = l2;
     l2->next = l3;
 
-    Solution s;
+    Solution2 s;
     ListNode* res = s.ReverseList(l1);
     while(res != nullptr){
         cout << res->val << endl;

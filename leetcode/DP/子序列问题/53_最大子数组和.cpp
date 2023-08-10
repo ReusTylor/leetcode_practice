@@ -24,6 +24,7 @@
 
 #include <iostream>
 #include <vector>
+#include <climits>
 using namespace std;
 
 class Solution {
@@ -39,6 +40,34 @@ public:
         }
         return result;
     }
+};
+
+// 滑动窗口
+class Solution2 {
+ public:
+  int maxSubArray(vector<int>& nums) {
+    int left = 0;
+    int right = 0;
+    int maxSum = INT_MIN;
+    int windowSum = 0;
+    // unordered_map<int, int> window;
+    while(right < nums.size()){
+      // int c  = nums[right];
+      // window[c]++;
+      // max += c;
+      windowSum += nums[right];
+      right++;
+
+      maxSum = max(windowSum, maxSum);
+      // 当窗口元素为负时，说明窗口中的元素对整个数组没有正向的增益，所以不应该出现在最大子数组中
+      while(windowSum < 0){
+        windowSum = 0;
+        left = right;
+      }
+
+    }
+    return maxSum;
+  }
 };
 
 int main(){
