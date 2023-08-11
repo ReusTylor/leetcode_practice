@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c703cd40-29b8-4a7e-84d1-2c231c386eb5" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/二分搜索/1011_在D天内送达包裹的能力.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/二分搜索/1011_在D天内送达包裹的能力.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <recent name="D:\C++\leetcode_practice\leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ 文件.1011_在D天内送达包裹的能力.cpp">
+  <component name="RunManager" selected="C/C++ 文件.278_第一个错误的版本.cpp">
     <configuration name="Unnamed" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory">
       <method v="2" />
     </configuration>
@@ -105,8 +104,8 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="35_搜索插入位置.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="35_搜索插入位置.cpp" CONFIG_NAME="35_搜索插入位置.cpp">
-      <option name="sourceFile" value="35_搜索插入位置.cpp" />
+    <configuration name="278_第一个错误的版本.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="278_第一个错误的版本.cpp" CONFIG_NAME="278_第一个错误的版本.cpp">
+      <option name="sourceFile" value="leetcode/二分搜索/278_第一个错误的版本.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -192,19 +191,19 @@
     <list>
       <item itemvalue="C/C++ 文件.回文子串.cpp" />
       <item itemvalue="C/C++ 文件.1011_在D天内送达包裹的能力.cpp" />
+      <item itemvalue="C/C++ 文件.278_第一个错误的版本.cpp" />
       <item itemvalue="C/C++ 文件.leetcode\二分搜索\167_两数之和II_输入有序数组.cpp" />
       <item itemvalue="C/C++ 文件.167_两数之和II_输入有序数组.cpp" />
-      <item itemvalue="C/C++ 文件.35_搜索插入位置.cpp" />
       <item itemvalue="C/C++ 文件.cache.cpp" />
       <item itemvalue="CMake 调试.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ 文件.278_第一个错误的版本.cpp" />
         <item itemvalue="C/C++ 文件.1011_在D天内送达包裹的能力.cpp" />
         <item itemvalue="C/C++ 文件.leetcode\二分搜索\167_两数之和II_输入有序数组.cpp" />
         <item itemvalue="C/C++ 文件.cache.cpp" />
         <item itemvalue="C/C++ 文件.167_两数之和II_输入有序数组.cpp" />
-        <item itemvalue="C/C++ 文件.35_搜索插入位置.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -268,8 +267,18 @@
           <line>33</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/leetcode/二分搜索/278_第一个错误的版本.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CppFileRunConfiguration">
+        <watch expression="nums[mid]" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
