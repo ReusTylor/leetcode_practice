@@ -38,26 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Program Files/CMake/bin",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "structure.view.defaults.are.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/CMake/bin&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\C++\leetcode_practice\leetcode\二分搜索" />
@@ -67,7 +67,7 @@
       <recent name="D:\C++\leetcode_practice\leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ 文件.278_第一个错误的版本.cpp">
+  <component name="RunManager" selected="C/C++ 文件.卡车上的最大单元数.cpp">
     <configuration name="Unnamed" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory">
       <method v="2" />
     </configuration>
@@ -80,26 +80,14 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="1572_Matrix_Diagonal_Sum .cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="1572_Matrix_Diagonal_Sum .cpp">
-      <option name="sourceFile" value="1572_Matrix_Diagonal_Sum .cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="1572_Matrix_Diagonal_Sum .cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="1572_Matrix_Diagonal_Sum .cpp" CONFIG_NAME="1572_Matrix_Diagonal_Sum .cpp">
-      <option name="sourceFile" value="leetcode\数组\1572_Matrix_Diagonal_Sum .cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="167_两数之和II_输入有序数组.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="167_两数之和II_输入有序数组.cpp" CONFIG_NAME="167_两数之和II_输入有序数组.cpp">
-      <option name="sourceFile" value="leetcode\二分搜索\167_两数之和II_输入有序数组.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="167_两数之和II_输入有序数组.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="167_两数之和II_输入有序数组.cpp" CONFIG_NAME="167_两数之和II_输入有序数组.cpp">
       <option name="sourceFile" value="leetcode\二分搜索\167_两数之和II_输入有序数组.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2384_最大回文数字.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="2384_最大回文数字.cpp" CONFIG_NAME="2384_最大回文数字.cpp">
+      <option name="sourceFile" value="leetcode/贪心/2384_最大回文数字.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -110,14 +98,14 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="35_搜索插入位置.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="35_搜索插入位置.cpp" CONFIG_NAME="35_搜索插入位置.cpp">
-      <option name="sourceFile" value="35_搜索插入位置.cpp" />
+    <configuration name="回文子串.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="回文子串.cpp" CONFIG_NAME="回文子串.cpp">
+      <option name="sourceFile" value="lanbudong/回文子串.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="回文子串.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="回文子串.cpp" CONFIG_NAME="回文子串.cpp">
-      <option name="sourceFile" value="lanbudong/回文子串.cpp" />
+    <configuration name="卡车上的最大单元数.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="卡车上的最大单元数.cpp" CONFIG_NAME="卡车上的最大单元数.cpp">
+      <option name="sourceFile" value="leetcode/贪心/卡车上的最大单元数.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -170,12 +158,6 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cache.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="cache.cpp" CONFIG_NAME="cache.cpp">
-      <option name="sourceFile" value="cache.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="cache.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="cache.cpp" CONFIG_NAME="cache.cpp">
       <option name="sourceFile" value="cache.cpp" />
       <method v="2">
@@ -190,20 +172,20 @@
     </configuration>
     <list>
       <item itemvalue="C/C++ 文件.回文子串.cpp" />
+      <item itemvalue="C/C++ 文件.2384_最大回文数字.cpp" />
+      <item itemvalue="C/C++ 文件.卡车上的最大单元数.cpp" />
       <item itemvalue="C/C++ 文件.1011_在D天内送达包裹的能力.cpp" />
       <item itemvalue="C/C++ 文件.278_第一个错误的版本.cpp" />
       <item itemvalue="C/C++ 文件.leetcode\二分搜索\167_两数之和II_输入有序数组.cpp" />
-      <item itemvalue="C/C++ 文件.167_两数之和II_输入有序数组.cpp" />
-      <item itemvalue="C/C++ 文件.cache.cpp" />
       <item itemvalue="CMake 调试.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ 文件.卡车上的最大单元数.cpp" />
+        <item itemvalue="C/C++ 文件.2384_最大回文数字.cpp" />
         <item itemvalue="C/C++ 文件.278_第一个错误的版本.cpp" />
         <item itemvalue="C/C++ 文件.1011_在D天内送达包裹的能力.cpp" />
         <item itemvalue="C/C++ 文件.leetcode\二分搜索\167_两数之和II_输入有序数组.cpp" />
-        <item itemvalue="C/C++ 文件.cache.cpp" />
-        <item itemvalue="C/C++ 文件.167_两数之和II_输入有序数组.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +220,7 @@
       <workItem from="1691734951021" duration="604000" />
       <workItem from="1691735576717" duration="209000" />
       <workItem from="1691735800489" duration="464000" />
+      <workItem from="1691741550363" duration="4481000" />
     </task>
     <servers />
   </component>
@@ -272,13 +255,13 @@
           <line>28</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/leetcode/贪心/卡车上的最大单元数.cpp</url>
+          <line>34</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="CppFileRunConfiguration">
-        <watch expression="nums[mid]" language="ObjectiveC" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
