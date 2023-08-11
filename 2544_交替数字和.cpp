@@ -1,9 +1,9 @@
 // 使用一个flag变量来确定正负
 
-#include<iostream>
-#include<stack>
-#include<algorithm>
-#include<cmath>
+#include <iostream>
+#include <stack>
+#include <algorithm>
+#include <cmath>
 using namespace std;
 
 
