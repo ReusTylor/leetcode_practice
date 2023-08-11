@@ -30,7 +30,7 @@
 using namespace std;
 
 class Solution{
-
+ public:
     int shipWithinDays(vector<int>& weights, int days) {
         int sum = 0; // 货物总重量
         int maxNum = 0; // 货物中的最大重量
@@ -68,7 +68,7 @@ class Solution{
                 high = mid - 1;
                 ans = mid;
             }else{
-                //当前运载量我们使用的天数如果大于D天，不符合要求
+                //当前运载量我们使用的天数如果大于days天，不符合要求
                 //提高运载量，看看能不能减少使用的天数
                 low = mid + 1;
             }
@@ -78,5 +78,8 @@ class Solution{
 };
 
 int main() {
-
+  vector<int> nums{1,2,3,4,5,6,7,8,9,10};
+  int days = 5;
+  Solution s;
+  cout << s.shipWithinDays(nums, days) << endl;
 }
