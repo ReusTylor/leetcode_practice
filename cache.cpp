@@ -1,57 +1,56 @@
-/*
- * 奇偶链表：
- */
-
 #include <bits/stdc++.h>
 using namespace std;
 struct ListNode {
     int val;
     struct ListNode *next;
-    explicit ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
 };
 
-class Solution{
+class Solution {
 public:
-    ListNode* oddEvenList(ListNode* head){
-        if(head == nullptr) return head;
-        ListNode* evenHead = head->next;
-        ListNode* odd = head;
-        ListNode* even = evenHead;
-        while(even != nullptr && even->next != nullptr){
-            odd->next = even->next;
-            odd = odd->next;
-            even->next = odd->next;
-            even = even->next;
+    bool isPalindrome(ListNode* head) {
+        if(head == nullptr){
+            return true;
         }
-        odd->next = evenHead;
-        return head;
+        ListNode* firstHalfEnd = endOfFirstHalf(head);
+        ListNode* secondHalfStart = reverseList(firstHalfEnd->next);
+
+        // 判断是否回文
+        ListNode* p1 = head;
+        ListNode* p2 = secondHalfStart;
+
+        bool result = true;
+        while(result && p2 != nullptr){
+            if(p1->val != p2->val){
+                result = false;
+            }
+            p1 = p1->next;
+            p2 = p2->next;
+        }
+        return result;
     }
+
+
+    ListNode* reverseList(ListNode* head) {
+        ListNode* prev = nullptr;
+        ListNode* curr = head;
+        while (curr != nullptr) {
+            ListNode* nextTemp = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = nextTemp;
+        }
+        return prev;
+    }
+
+    ListNode* endOfFirstHalf(ListNode* head) {
+        ListNode* fast = head;
+        ListNode* slow = head;
+        while (fast->next != nullptr && fast->next->next != nullptr) {
+            fast = fast->next->next;
+            slow = slow->next;
+        }
+        return slow;
+    }
+
 };
-
-void printList(ListNode* head) {
-    while (head != nullptr) {
-        std::cout << head->val << " -> ";
-        head = head->next;
-    }
-    std::cout << "nullptr" << std::endl;
-}
-
-int main() {
-    // Create a linked list: 1 -> 2 -> 3 -> 4 -> 5
-    ListNode* head = new ListNode(1);
-    head->next = new ListNode(2);
-    head->next->next = new ListNode(3);
-    head->next->next->next = new ListNode(4);
-    head->next->next->next->next = new ListNode(5);
-
-    cout << "Original Linked List: ";
-    printList(head);
-
-    Solution solution;
-    ListNode* newHead = solution.oddEvenList(head);
-
-    cout << "Odd-Even Linked List: ";
-    printList(newHead);
-
-    return 0;
-}

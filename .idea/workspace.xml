@@ -12,7 +12,6 @@
     <list default="true" id="c703cd40-29b8-4a7e-84d1-2c231c386eb5" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cache.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cache.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/反转链表.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/高频面试题/reverselist.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +218,7 @@
       <workItem from="1691741550363" duration="4481000" />
       <workItem from="1691774738291" duration="515000" />
       <workItem from="1691814691153" duration="3800000" />
-      <workItem from="1691906626139" duration="3338000" />
+      <workItem from="1691906626139" duration="5781000" />
     </task>
     <servers />
   </component>
@@ -253,6 +252,11 @@
           <url>file://$PROJECT_DIR$/leetcode/贪心/卡车上的最大单元数.cpp</url>
           <line>34</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cache.cpp</url>
+          <line>55</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
