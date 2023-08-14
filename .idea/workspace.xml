@@ -12,6 +12,8 @@
     <list default="true" id="c703cd40-29b8-4a7e-84d1-2c231c386eb5" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cache.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cache.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/滑动窗口/209_长度最小的子数组.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/滑动窗口/209_长度最小的子数组.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/滑动窗口/3_无重复的最长子串.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/滑动窗口/3_无重复的最长子串.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +77,18 @@
     <configuration name="Unnamed" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory">
       <method v="2" />
     </configuration>
+    <configuration name="209_长度最小的子数组.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="209_长度最小的子数组.cpp" CONFIG_NAME="209_长度最小的子数组.cpp">
+      <option name="sourceFile" value="leetcode\滑动窗口\209_长度最小的子数组.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="713_乘积小于K的子数组.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="713_乘积小于K的子数组.cpp" CONFIG_NAME="713_乘积小于K的子数组.cpp">
+      <option name="sourceFile" value="leetcode\滑动窗口\713_乘积小于K的子数组.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="反转链表.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="反转链表.cpp">
       <option name="sourceFile" value="reverselist.cpp" />
       <method v="2">
@@ -83,6 +97,18 @@
     </configuration>
     <configuration name="回文子串.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="回文子串.cpp" CONFIG_NAME="回文子串.cpp">
       <option name="sourceFile" value="lanbudong/回文子串.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="反转链表.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="反转链表.cpp" CONFIG_NAME="反转链表.cpp">
+      <option name="sourceFile" value="反转链表.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="选择排序.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="选择排序.cpp" CONFIG_NAME="选择排序.cpp">
+      <option name="sourceFile" value="leetcode\排序\选择排序.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -135,18 +161,6 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="反转链表.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="反转链表.cpp" CONFIG_NAME="反转链表.cpp">
-      <option name="sourceFile" value="反转链表.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="选择排序.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="选择排序.cpp" CONFIG_NAME="选择排序.cpp">
-      <option name="sourceFile" value="leetcode\排序\选择排序.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="cache.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="cache.cpp" CONFIG_NAME="cache.cpp">
       <option name="sourceFile" value="cache.cpp" />
       <method v="2">
@@ -159,26 +173,22 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test3.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="test3.cpp" CONFIG_NAME="test3.cpp">
-      <option name="sourceFile" value="test3.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="C/C++ 文件.回文子串.cpp" />
+      <item itemvalue="C/C++ 文件.209_长度最小的子数组.cpp" />
+      <item itemvalue="C/C++ 文件.713_乘积小于K的子数组.cpp" />
       <item itemvalue="C/C++ 文件.cache.cpp" />
       <item itemvalue="C/C++ 文件.反转链表.cpp (1)" />
       <item itemvalue="C/C++ 文件.templatetest.cpp" />
-      <item itemvalue="C/C++ 文件.test3.cpp" />
       <item itemvalue="CMake 调试.Unnamed" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="C/C++ 文件.cache.cpp" />
+        <item itemvalue="C/C++ 文件.713_乘积小于K的子数组.cpp" />
+        <item itemvalue="C/C++ 文件.209_长度最小的子数组.cpp" />
         <item itemvalue="C/C++ 文件.反转链表.cpp (1)" />
         <item itemvalue="C/C++ 文件.templatetest.cpp" />
-        <item itemvalue="C/C++ 文件.test3.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +230,8 @@
       <workItem from="1691976946276" duration="31000" />
       <workItem from="1691977008833" duration="114000" />
       <workItem from="1691978698424" duration="2716000" />
-      <workItem from="1691997782169" duration="54000" />
+      <workItem from="1691997782169" duration="920000" />
+      <workItem from="1691999287192" duration="5807000" />
     </task>
     <servers />
   </component>
