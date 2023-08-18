@@ -9,12 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c703cd40-29b8-4a7e-84d1-2c231c386eb5" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cache.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/滑动窗口/209_长度最小的子数组.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/滑动窗口/209_长度最小的子数组.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/滑动窗口/3_无重复的最长子串.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/滑动窗口/3_无重复的最长子串.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="c703cd40-29b8-4a7e-84d1-2c231c386eb5" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +51,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;language.cpp.clangd&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Debugger.ObjectiveC&quot;,
     &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -101,30 +96,6 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="反转链表.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="反转链表.cpp" CONFIG_NAME="反转链表.cpp">
-      <option name="sourceFile" value="反转链表.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="选择排序.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="选择排序.cpp" CONFIG_NAME="选择排序.cpp">
-      <option name="sourceFile" value="leetcode\排序\选择排序.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="科大讯飞提前批.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="科大讯飞提前批.cpp" CONFIG_NAME="科大讯飞提前批.cpp">
-      <option name="sourceFile" value="leetcode/面试题目/科大讯飞提前批.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="星环科技.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="星环科技.cpp" CONFIG_NAME="星环科技.cpp">
-      <option name="sourceFile" value="leetcode/面试题目/星环科技.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="反转链表.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="反转链表.cpp" CONFIG_NAME="反转链表.cpp">
       <option name="sourceFile" value="反转链表.cpp" />
       <method v="2">
@@ -157,6 +128,30 @@
     </configuration>
     <configuration name="冒泡排序.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="冒泡排序.cpp" CONFIG_NAME="冒泡排序.cpp">
       <option name="sourceFile" value="leetcode\排序\冒泡排序.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="反转链表.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="反转链表.cpp" CONFIG_NAME="反转链表.cpp">
+      <option name="sourceFile" value="反转链表.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="选择排序.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode_practice" TARGET_NAME="选择排序.cpp" CONFIG_NAME="选择排序.cpp">
+      <option name="sourceFile" value="leetcode\排序\选择排序.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="科大讯飞提前批.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="科大讯飞提前批.cpp" CONFIG_NAME="科大讯飞提前批.cpp">
+      <option name="sourceFile" value="leetcode/面试题目/科大讯飞提前批.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="星环科技.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="星环科技.cpp" CONFIG_NAME="星环科技.cpp">
+      <option name="sourceFile" value="leetcode/面试题目/星环科技.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -231,7 +226,14 @@
       <workItem from="1691977008833" duration="114000" />
       <workItem from="1691978698424" duration="2716000" />
       <workItem from="1691997782169" duration="920000" />
-      <workItem from="1691999287192" duration="5807000" />
+      <workItem from="1691999287192" duration="5867000" />
+      <workItem from="1692012098433" duration="3513000" />
+      <workItem from="1692026098738" duration="2856000" />
+      <workItem from="1692089214837" duration="3932000" />
+      <workItem from="1692152659908" duration="6507000" />
+      <workItem from="1692202934013" duration="595000" />
+      <workItem from="1692238502084" duration="15000" />
+      <workItem from="1692367132528" duration="1411000" />
     </task>
     <servers />
   </component>
